@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piano</title>
+</head>
+<body>
+    <div class="piano-cover">
+        <div class="piano-name"></div>
+    </div>
+    <div class="board">
+        <div class="container">
+            <div data-key="65"class="key key-c"><div class="key-letter">C</div></div>
+            <div data-key="83"class="key key-d"><div class="key-letter">D</div></div>
+            <div data-key="68"class="key key-e"><div class="key-letter">E</div></div>
+            <div data-key="70"class="key key-f"><div class="key-letter">F</div></div>
+            <div data-key="71"class="key key-g"><div class="key-letter">G</div></div>
+            <div data-key="72"class="key key-a"><div class="key-letter">A</div></div>
+            <div data-key="74"class="key key-b"><div class="key-letter">B</div></div>
+            <div data-key="75"class="key key-c2"><div class="key-letter">C</div></div>
+            <div data-key="76"class="key key-d2"><div class="key-letter">D</div></div>
+            <div data-key="186"class="key key-e2"><div class="key-letter">E</div></div>
+        </div>
+            <div data-key="87"class="key black-keys c-black"><div class="key-letter-black key-c#">C# Db</div></div>
+            <div data-key="69"class="key black-keys d-black"><div class="key-letter-black key-d#">D# Eb</div></div>
+            <div data-key="84"class="key black-keys f-black"><div class="key-letter-black key-f#">F# Gb</div></div>
+            <div data-key="89"class="key black-keys g-black"><div class="key-letter-black key-g#">G# Ab</div></div>
+            <div data-key="85"class="key black-keys a-black"><div class="key-letter-black key-a#">A# Bb</div></div>
+            <div data-key="79"class="key black-keys ct-black"><div class="key-letter-black key-c#2">C# Db</div></div>
+            <div data-key="80"class="key black-keys dt-black"><div class="key-letter-black key-d#2">D# Eb</div></div>     
+    </div>
+    <section class="audio">
+        <audio src="sounds/040.wav" data-key="65"></audio>
+        <audio src="sounds/041.wav" data-key="87"></audio>
+        <audio src="sounds/042.wav" data-key="83"></audio>
+        <audio src="sounds/043.wav" data-key="69"></audio>
+        <audio src="sounds/044.wav" data-key="68"></audio>
+        <audio src="sounds/045.wav" data-key="70"></audio>
+        <audio src="sounds/046.wav" data-key="84"></audio>
+        <audio src="sounds/047.wav" data-key="71"></audio>
+        <audio src="sounds/048.wav" data-key="89"></audio>
+        <audio src="sounds/049.wav" data-key="72"></audio>
+        <audio src="sounds/050.wav" data-key="85"></audio>
+        <audio src="sounds/051.wav" data-key="74"></audio>
+        <audio src="sounds/052.wav" data-key="75"></audio>
+        <audio src="sounds/053.wav" data-key="79"></audio>
+        <audio src="sounds/054.wav" data-key="76"></audio>
+        <audio src="sounds/055.wav" data-key="80"></audio>
+        <audio src="sounds/056.wav" data-key="186"></audio>
+
+    </section>
+    <script src="main.js"></script>
+    </body>
+</html>
